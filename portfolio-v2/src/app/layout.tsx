@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ClientOnly } from "@/components/ui/client-only";
@@ -35,9 +35,13 @@ export const metadata: Metadata = {
     description: "Shernan Javier is a CTO and AI Engineer currently building AI agents at Clover Labs.",
     creator: "@shernanjavier",
   },
-  viewport: "width=device-width, initial-scale=1",
-  themeColor: "#101010",
   manifest: "/manifest.json",
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#101010",
 };
 
 export default function RootLayout({
