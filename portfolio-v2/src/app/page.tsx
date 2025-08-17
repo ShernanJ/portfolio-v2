@@ -197,7 +197,7 @@ export default function Home() {
       </div>
 
       {/* Music Player */}
-      <MusicPlayer />
+      {/* <MusicPlayer /> */}
     </div>
   );
 }

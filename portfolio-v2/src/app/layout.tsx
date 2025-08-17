@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ClientOnly } from "@/components/ui/client-only";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,16 +13,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Shernan Javier - CTO & AI Engineer Portfolio",
-  description: "Shernan Javier is a CTO and AI Engineer currently building AI agents at Clover Labs. Previously worked at TD, Thales, and Taplytics. Based in Toronto, Canada.",
-  keywords: ["Shernan Javier", "CTO", "AI Engineer", "Clover Labs", "Toronto", "Portfolio", "AI Agents", "Machine Learning"],
+  title: "Shernan Javier - Portfolio",
+  description: "my portfolio lol",
+  keywords: ["Shernan Javier", "Portfolio", "Toronto"],
   authors: [{ name: "Shernan Javier" }],
   creator: "Shernan Javier",
   publisher: "Shernan Javier",
   robots: "index, follow",
   openGraph: {
-    title: "Shernan Javier - CTO & AI Engineer Portfolio",
-    description: "Shernan Javier is a CTO and AI Engineer currently building AI agents at Clover Labs. Previously worked at TD, Thales, and Taplytics.",
+    title: "Shernan Javier - Portfolio",
+    description: "my portfolio lol",
     url: "https://shernanjavier.com",
     siteName: "Shernan Javier Portfolio",
     locale: "en_CA",
@@ -31,8 +30,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Shernan Javier - CTO & AI Engineer Portfolio",
-    description: "Shernan Javier is a CTO and AI Engineer currently building AI agents at Clover Labs.",
+    title: "Shernan Javier - Portfolio",
+    description: "my portfolio lol",
     creator: "@shernanjavier",
   },
   manifest: "/manifest.json",
@@ -60,9 +59,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning={true}
       >
-        <ClientOnly>
-          {children}
-        </ClientOnly>
+        {children}
       </body>
     </html>
   );
