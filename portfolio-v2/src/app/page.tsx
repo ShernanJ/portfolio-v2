@@ -139,24 +139,29 @@ export default function Home() {
                 height={30}
                 className="w-8 h-8 opacity-40 scale-x-[-1] rotate-[45deg]"
               />
-              <span>but heres where i actually work</span>
+              <span>but heres where i actually do</span>
             </div>
           </div>
 
           {/* Experience Section */}
           <div className="space-y-6 text-center">
             <div className="text-white/80 text-lg">
-              currently at <b><a href="https://www.cloverlabs.ai/" className="text-white/80 hover:underline transition-colors" target="_blank">clover labs</a> </b><span className="whitespace-nowrap">building ai agents</span> <br></br>
-              <span className="text-white/40 text-sm">(learning so much surrounded by cool people :D)</span>
+              building <b>merchme</b> <span className="whitespace-nowrap">to learn how to be a founder</span>
+              <br></br><span className="text-white/40 text-sm">(currently raising pre-seed :D)</span>
+            </div>
+
+            <div className="text-white/80 text-lg">
+              currently a <b><a href="https://www.cansbridgescholars.com/" className="text-white/80 hover:underline transition-colors" target="_blank">cansbridge scholar</a> </b><span className="whitespace-nowrap">to learn how to be a great entreprenuer</span>
+              <br></br><span className="text-white/40 text-sm">(escaping the gravitational pull of mediocrity)</span>
+            </div>
+
+            <div className="text-white/80 text-lg">
+              previously worked at <b><a href="https://www.cloverlabs.ai/" className="text-white/80 hover:underline transition-colors" target="_blank">clover labs</a> </b><span className="whitespace-nowrap">building ai agents</span> <br></br>
+              <span className="text-white/40 text-sm">(learned so much surrounded by cool people :D)</span>
             </div>
             
             <div className="text-white/80 text-lg">
-              trying to build <b>merchme</b> <span className="whitespace-nowrap">to learn how to be a founder</span>
-              <br></br><span className="text-white/40 text-sm">(struggling hard af rn but we vibing :D)</span>
-            </div>
-            
-            <div className="text-white/80 text-lg">
-              previously worked at td, thales, taplytics <br></br>
+              and previously worked at td, thales, taplytics <br></br>
               <span className="text-white/40 text-sm">(drank the corporate kool-aid)</span>
             </div>
           </div>
