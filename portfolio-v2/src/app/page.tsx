@@ -139,14 +139,14 @@ export default function Home() {
                 height={30}
                 className="w-8 h-8 opacity-40 scale-x-[-1] rotate-[45deg]"
               />
-              <span>but heres where i actually do</span>
+              <span>but heres what i actually do</span>
             </div>
           </div>
 
           {/* Experience Section */}
           <div className="space-y-6 text-center">
             <div className="text-white/80 text-lg">
-              building <b>merchme</b> <span className="whitespace-nowrap">to learn how to be a founder</span>
+              building <b>merchme</b> <span className="whitespace-nowrap">to learn how to be a founder / cto</span>
               <br></br><span className="text-white/40 text-sm">(currently raising pre-seed :D)</span>
             </div>
 
